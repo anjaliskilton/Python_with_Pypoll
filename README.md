@@ -19,7 +19,7 @@ The goal of this project was to use python to aid in data analysis of election d
     Winning Vote Count: 272,892
     Winning Percentage: 73.8%
 Below is an image of the former information in the out-putted txt file. Additionally, details of how this information was obtained can be found in the appendix section.
-![fig_dis][fig_dis.PNG)
+![fig_dis](fig_dis.PNG)
 ## Audit Summary
 As seen in the former section this python script provides a detailed break down of election results in a clear and succinct manner. This script can be used with any election in the following ways. Let’s say a country would like to use this to report nation wide elections. An analyst can modify the script by changing anything that says county votes to say state votes. Additionally, if an election would like to display the information for a losing candidate they can repeat step 7 in the appendix but alter the variables denoted winner/winning to loser/loosing.
 ## Appendix
