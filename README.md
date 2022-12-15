@@ -19,7 +19,7 @@ The goal of this project was to use python to aid in data analysis of election d
     Winning Vote Count: 272,892
     Winning Percentage: 73.8%
 Below is an image of the former information in the out-putted txt file. Additionally, details of how this information was obtained can be found in the appendix section.
-!(fig_dis)[fig_dis.png)
+!(fig_dis)[fig_dis.PNG)
 ## Audit Summary
 As seen in the former section this python script provides a detailed break down of election results in a clear and succinct manner. This script can be used with any election in the following ways. Let’s say a country would like to use this to report nation wide elections. An analyst can modify the script by changing anything that says county votes to say state votes. Additionally, if an election would like to display the information for a losing candidate they can repeat step 7 in the appendix but alter the variables denoted winner/winning to loser/loosing.
 ## Appendix
@@ -37,20 +37,20 @@ In order to initialize counts a variable is created then set to a string by putt
 ![fig_2](fig_2.PNG)
 In this step we are extracting data from the CSV file. This is done by opening the csv file and setting it to a variable. Then using reader to access the contents of the csv file in read only so that the data will not be changed. A for loop is then initialized to read the contents of the file and establish data for each variable.  Variables were then to set to iterate through all votes, and locations of candidate name and county name in the csv file were specified.
 ### Step 3
-![fig_3](fig_3.png)
+![fig_3](fig_3.PNG)
 Here we are appending our lists to add all counties and candidate names. This is done by the append command. Variables are also initialized here to correlate two variables in the csv file and iterate through them.
 ### Step 4
-![fig_4](fig_4.png)
+![fig_4](fig_4.PNG)
 An f string is used here to set up a block of text stating election results, total votes, and county votes. It is important  to note that \n, f”, and print respectively ends a line of text, starts a new line in the f string, and prints the f string. In the third line of the f string the variable total_votes is used to print the overall total votes. Additionally, the txt_file.write(election_results) adds the contents of the f string to the txt file.
 ### Step 5
-![fig_5](fig_5.png)
+![fig_5](fig_5.PNG)
 Here a for loop is initiated to gather the county name correlated with the number of votes tied to that county. This is done by setting the variable all_votes equal to county vote county by county_votes[county_name]. Then the variable all_votes_percentage was set to a floating-point number “float” by dividing the all votes count by the total number of votes. 
 A new variable called county results is then printed to the terminal by using an f string composed of the county name, all votes percentage, and all votes for that county. The county results are then printed to the txt file by using a print statement and saving to the txt file using txt_file.write(county results). 
 ### Step 6
-!fig[fig_6](fig_6.png)
+!fig[fig_6](fig_6.PNG)
 An if statement is then used to acquire the largest county vote and the largest county turnout. Then the winning county was found by using an f string to print out the largest county turnout and printed to the text file using a print statement. 
 ### Step 7
-!fig[fig_7](fig_7.png)
-!fig[fig_8](fig_8.png)
+!fig[fig_7](fig_7.PNG)
+!fig[fig_8](fig_8.PNG)
 The winning county was then saved to the txt file using the write command. Then a for loop was initiated to get the final candidate vote count. This is done by imitating a for loop by pulling the candidate’s name from candidate votes. A variable called votes is used to get the candidate’s name from candidate votes using the get command. Then the voting percentage was retrieved via the same method used as before.  In F string candidate results were formed by utilizing candidate name, vote percentage, and votes.
 This was then printed and saved to the txt file using the write function. Then an if statement is implemented to determine the winning vote count, winning candidate, and winning percentage. The former was then printed in a winning candidate summary using an f string and print statement then saves to the txt file using the write function.
