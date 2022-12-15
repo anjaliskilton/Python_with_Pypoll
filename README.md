@@ -47,10 +47,10 @@ An f string is used here to set up a block of text stating election results, tot
 Here a for loop is initiated to gather the county name correlated with the number of votes tied to that county. This is done by setting the variable all_votes equal to county vote county by county_votes[county_name]. Then the variable all_votes_percentage was set to a floating-point number “float” by dividing the all votes count by the total number of votes. 
 A new variable called county results is then printed to the terminal by using an f string composed of the county name, all votes percentage, and all votes for that county. The county results are then printed to the txt file by using a print statement and saving to the txt file using txt_file.write(county results). 
 ### Step 6
-!fig[fig_6](fig_6.PNG)
+![fig_6](fig_6.PNG)
 An if statement is then used to acquire the largest county vote and the largest county turnout. Then the winning county was found by using an f string to print out the largest county turnout and printed to the text file using a print statement. 
 ### Step 7
-!fig[fig_7](fig_7.PNG)
-!fig[fig_8](fig_8.PNG)
+![fig_7](fig_7.PNG)
+![fig_8](fig_8.PNG)
 The winning county was then saved to the txt file using the write command. Then a for loop was initiated to get the final candidate vote count. This is done by imitating a for loop by pulling the candidate’s name from candidate votes. A variable called votes is used to get the candidate’s name from candidate votes using the get command. Then the voting percentage was retrieved via the same method used as before.  In F string candidate results were formed by utilizing candidate name, vote percentage, and votes.
 This was then printed and saved to the txt file using the write function. Then an if statement is implemented to determine the winning vote count, winning candidate, and winning percentage. The former was then printed in a winning candidate summary using an f string and print statement then saves to the txt file using the write function.
