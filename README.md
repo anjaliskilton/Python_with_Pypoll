@@ -1,6 +1,6 @@
 # Py Poll with Python
 ## Introduction
-**This project focused on the use of for loops, conditional statements with membership and logical operators, and python packages to obtain election result data.**All data for this project came from a pre-entered CSV file for voting analysis specifying ballot ID, county, and candidate information. 
+**This project focused on the use of for loops, conditional statements with membership and logical operators, and python packages to obtain election result data**.All data for this project came from a pre-entered CSV file for voting analysis specifying ballot ID, county, and candidate information. 
 ## Purpose
 The goal of this project was to use python to aid in data analysis of election data reported in a CSV and output that analysis in a text file. This report will report how many votes were cast in the congressional election, provide a breakdown of the number of votes and percentage of total votes for each county in the precinct, which county had the largest number of votes, the number and percentage of votes for each candidate, and the statistics for the winning candidate. This report will also denote how the script can be used for other elections. The in-depth details of the python analysis methods to extract this data can be found in the appendix. 
 ## Results
