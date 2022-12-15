@@ -28,7 +28,7 @@ The goal of this project is to use the csv and os module in conjunction with log
 ### Results
 In order to obtain the desired election values the following steps were taken.
 ### Step 1
-![fig_1](fig_1.png)
+! [fig_1](fig_1.png)
 In this step we are importing our desired modules, setting up variables to load and save a csv file, initializing voter counts, creating lists and dictionaries for counties and candidate votes, and initializing candidate and county trackers.
 CSV and os are the two modules used in this script for the following reasons. CSV allows you to pull CSV files into your script and os allows you to access files with out knowing the exact location of your file. This These modules are imported by using the command import then the name of module. 
 The desired CSV file is stored in a folder called resources and is titled election_results.csv. Thus, to create a variable to load the file use we use our module os path and specify the location and name of the file then set it equal to the file_to_load variable. A similar process is then used for saving a new CSV file.
