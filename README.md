@@ -5,16 +5,16 @@
 The goal of this project was to use python to aid in data analysis of election data reported in a CSV and output that analysis in a text file. This report will report how many votes were cast in the congressional election, provide a breakdown of the number of votes and percentage of total votes for each county in the precinct, which county had the largest number of votes, the number and percentage of votes for each candidate, and the statistics for the winning candidate. This report will also denote how the script can be used for other elections. The in-depth details of the python analysis methods to extract this data can be found in the appendix. 
 ## Results
 * **Total Votes**: 369,711
-**Total Votes and Voting Percentage Per County**: 
+* **Total Votes and Voting Percentage Per County**: 
     Jefferson: 10.5% (38,855)
     Denver: 82.8% (306,055)
     Arapahoe: 6.7% (24,801)
-**Largest County Turnout**: Denver
-**Candidate number of votes and percentage**:
+* **Largest County Turnout**: Denver
+* **Candidate number of votes and percentage**:
     Charles Casper Stockham: 23.0% (85,213)
     Diana DeGette: 73.8% (272,892)
     Raymon Anthony Doane: 3.1% (11,606)
-**Winning candidate statistics**:
+* **Winning candidate statistics**:
     Winner: Diana DeGette
     Winning Vote Count: 272,892
     Winning Percentage: 73.8%
