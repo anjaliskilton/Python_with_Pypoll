@@ -4,7 +4,7 @@
 ## Purpose
 The goal of this project was to use python to aid in data analysis of election data reported in a CSV and output that analysis in a text file. This report will report how many votes were cast in the congressional election, provide a breakdown of the number of votes and percentage of total votes for each county in the precinct, which county had the largest number of votes, the number and percentage of votes for each candidate, and the statistics for the winning candidate. This report will also denote how the script can be used for other elections. The in-depth details of the python analysis methods to extract this data can be found in the appendix. 
 ## Results
-**Total Votes**: 369,711
+* **Total Votes**: 369,711
 **Total Votes and Voting Percentage Per County**: 
     Jefferson: 10.5% (38,855)
     Denver: 82.8% (306,055)
